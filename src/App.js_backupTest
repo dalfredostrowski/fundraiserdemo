@@ -1,18 +1,11 @@
-import React, { useState, useEffect, Fragment } from "react";
+import React, { useState, useEffect } from "react";
 import FactoryContract from "./contracts/FundraiserFactory.json";
 //  import getWeb3 from "./utils/getWeb3";
 import { makeStyles } from '@material-ui/core/styles';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
-//import { BrowserRouter as Router, Route, NavLink } from "react-router-dom";
-import {
-  BrowserRouter as Router,
-  Routes,
-  Route,
-  NavLink
-} from "react-router-dom";
-
+import { BrowserRouter as Router, Route, NavLink, Routes } from "react-router-dom";
 
 import NewFundraiser from './NewFundraiser'
 import Home from './Home'
@@ -30,7 +23,7 @@ const App = () => {
       try {
         // Get network provider and web3 instance.
         //const web3 = await getWeb3();
- 	const web3 = new Web3(new Web3.providers.HttpProvider("http://ec2-34-223-48-94.us-west-2.compute.amazonaws.com:8545"))
+ 	const web3 = new Web3(new Web3.providers.HttpProvider("http://ec2-35-88-49-0.us-west-2.compute.amazonaws.com:8545"))
         // Use web3 to get the user's accounts.
         const accounts = await web3.eth.getAccounts();
 
@@ -42,16 +35,8 @@ const App = () => {
           deployedNetwork && deployedNetwork.address,
         );
 
-	// test code
-        let jsonData = require('./FundraiserFactory.json');
-        var networkKey =  Object.keys(jsonData['networks'])[Object.keys(jsonData.networks).length-1] 
-        console.log(networkKey)	
-        //const contract = new web3.eth.Contract(VOTING_ABI);
-        const newinstance = new web3.eth.Contract(jsonData.abi); 
-        newinstance.options.address = jsonData['networks'][networkId]["address"]
-
         // Set web3, accounts, and contract to the state, and then proceed with an
-        setState({web3, accounts, contract: newinstance});
+        setState({web3, accounts, contract: instance});
 
       } catch(error) {
         // Catch any errors for any of the above operations.
@@ -76,8 +61,7 @@ const App = () => {
 
   return (
     <div>
-     <Router>
-      <Fragment> 
+      <Routes>
         <AppBar position="static" color="default" style={{ margin: 0 }}>
           <Toolbar>
            <Typography variant="h6" color="inherit">
@@ -85,15 +69,13 @@ const App = () => {
            </Typography>
            <NavLink className="nav-link" to="/new/">New</NavLink>
           </Toolbar>
-         </AppBar>
-      <Routes>
-        <Route path="/" exact element={<Home/>} />
-        <Route path="/new/" element={<NewFundraiser/>} />
-        <Route path="/receipts" element={<Receipts/>} />
+       </AppBar>
+
+        <Route path="/" exact component={Home} />
+        <Route path="/new/" component={NewFundraiser} />
+        <Route path="/receipts" component={Receipts} />
       </Routes>
-     </Fragment>
-  </Router> 
- </div>
+    </div>
   )
 }
 

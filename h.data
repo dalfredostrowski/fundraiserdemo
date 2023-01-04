@@ -1,0 +1,1000 @@
+  686  ls
+  687  vi truffle-config.js 
+  688  ./node_modules/.bin/ganache-cli --port 8545  --chainId 5777 -h ec2-100-21-17-251.us-west-2.compute.amazonaws.com
+  689  cd ..
+  690  ./node_modules/.bin/ganache-cli --port 8545  --chainId 5777 -h ec2-100-21-17-251.us-west-2.compute.amazonaws.com
+  691  ls
+  692  cd fundraiser
+  693  ls
+  694  cd ..
+  695  /home/ubuntu/node_modules/.bin/truffle test
+  696  pwd
+  697  cd fundraiser/
+  698  cd test
+  699  /home/ubuntu/node_modules/.bin/truffle test
+  700  cd test
+  701  cd truffle/
+  702  ls
+  703  cd test
+  704  ls
+  705  /home/ubuntu/node_modules/.bin/truffle test
+  706  cd ..
+  707  cd contracts
+  708  vi Fundraiser.sol
+  709  /home/ubuntu/node_modules/.bin/truffle test
+  710  vi Fundraiser.sol
+  711  /home/ubuntu/node_modules/.bin/truffle test
+  712  ls
+  713  rm Ownable.sol 
+  714  /home/ubuntu/node_modules/.bin/truffle test
+  715  cd ..
+  716  ls
+  717  cd node_modules/
+  718  cd openzeppelin-solidity/
+  719  cd contracts/
+  720  cd ownership
+  721  vi Ownable.sol
+  722  cd ..
+  723  ls
+  724  cd ..
+  725  ls
+  726  cd fundraiser/
+  727  ls
+  728  cd truffle/
+  729  ls
+  730  cd test
+  731  /home/ubuntu/node_modules/.bin/truffle test
+  732  cd ..
+  733  l
+  734  cd ..
+  735  l
+  736  pwd
+  737  cd ~ubuntu
+  738  ls
+  739  cd node_modules/openzeppelin-solidity/contracts/ownership/
+  740  vi Ownable.sol 
+  741  ls
+  742  cd fundraiser/
+  743  ls
+  744  cd truffle/
+  745  cd test
+  746  ls
+  747  fundraiser_test.js  fundraiser_test.js_working_back
+  748  ubuntu@ip-172-31-49-122:~/fundraiser/truffle/test$
+  749  /home/ubuntu/node_modules/.bin/truffle test
+  750  cd ..
+  751  ls
+  752  cd node_modules/
+  753  cd openzeppelin-solidity/contracts/ownership/
+  754  ls
+  755  vi Ownable.sol 
+  756  ls
+  757  vi Context.sol
+  758  ls
+  759  vi Ownable.sol 
+  760  cd ..
+  761  ls
+  762  cd ..
+  763  ls
+  764  cd ..
+  765  ls
+  766  cd fundraiser/
+  767  ls
+  768  cd truffle/
+  769  ls
+  770  contracts
+  771  cd contracts/
+  772  ls
+  773  vi Fundraiser.sol 
+  774  cd ..
+  775  /home/ubuntu/node_modules/.bin/truffle test
+  776  cd contracts/
+  777  ls
+  778  /home/ubuntu/node_modules/.bin/truffle test
+  779  /home/ubuntu/node_modules/.bin/truffle deploy
+  780  /home/ubuntu/node_modules/.bin/truffle test
+  781  /home/ubuntu/node_modules/.bin/truffle deploy
+  782  ls
+  783  cd fundraiser/
+  784  ls
+  785  cd truffle
+  786  ls
+  787  vi truffle-config.js 
+  788  cd ..
+  789  l
+  790  ls
+  791  cd ..
+  792  ls
+  793  ./node_modules/.bin/ganache-cli --port 8545  --chainId 5777 -h ec2-35-93-109-132.us-west-2.compute.amazonaws.com
+  794  ls
+  795  cd fundraiser/
+  796  ls
+  797  cd truffle/
+  798  cd test
+  799  ls
+  800  /home/ubuntu/node_modules/.bin/truffle test
+  801  cd ..
+  802  ls
+  803  cd contracts/
+  804  ls
+  805  vi Fundraiser.sol 
+  806  cd ..
+  807  cd test
+  808  /home/ubuntu/node_modules/.bin/truffle test
+  809  cd ..
+  810  ls
+  811  cd contracts
+  812  ls
+  813  vi Fundraiser.sol 
+  814  cd ..
+  815  cd test
+  816  ls
+  817  cd truffle/
+  818  ls
+  819  cd test
+  820  /home/ubuntu/node_modules/.bin/truffle test
+  821  cd ..
+  822  npm i @openzeppelin/contracts
+  823  cd node_modules/
+  824  cd openzeppelin
+  825  ls
+  826  ls op*
+  827  ls -l openz*
+  828  cd openzeppelin-solidity/
+  829  ls
+  830  cd contracts
+  831  ls
+  832  cd access
+  833  ls
+  834  cat Ownable.sol
+  835  cat Ownable.sol | more
+  836  CCC
+  837  ls
+  838  vi Ownable.sol 
+  839  ls
+  840  vi Ownable.sol 
+  841  cd ..
+  842  cd function
+  843  cd ..
+  844  cd fundraiser/
+  845  ls
+  846  cd truffle
+  847  ls
+  848  cd contracts
+  849  ls
+  850  vi Fundraiser.sol 
+  851  ls
+  852  ./node_modules/.bin/ganache-cli --port 8545  --chainId 5777 -h ec2-44-234-188-41.us-west-2.compute.amazonaws.com
+  853  ls
+  854  history
+  855  npm install openzeppelin/contracts@4.0.0
+  856  npm install @openzeppelin/contracts@4.0.0
+  857  ls
+  858  cd node_modules
+  859  ls
+  860  history
+  861  ls
+  862  cd contracts
+  863  ls -l open*
+  864  ls -l | more
+  865  cd openzeppelin-solidity/
+  866  ls
+  867  cd conracts
+  868  cd contracts/
+  869  ls
+  870  cd access
+  871  ls
+  872  vi Ownable.sol
+  873  ls
+  874  vi Ownable.sol
+  875  ls
+  876  cd ..
+  877  ls
+  878  cd utils
+  879  ls
+  880  vi Context.sol
+  881  cd ..
+  882  ls
+  883  pwd
+  884  cd ..
+  885  npm uninstall openzeppelin
+  886  npm uninstall openzeppelin-solidity
+  887  ls
+  888  cd node_modules/
+  889  ls
+  890  npm install openzeppelin-solidity@2.3.0
+  891  cd openzeppelin-solidity/
+  892  ls
+  893  cd contracts
+  894  ls
+  895  cd ownership
+  896  ls
+  897  vi Ownable.sol
+  898  history
+  899  ls
+  900  cd fundraiser/
+  901  cd truffle/
+  902  ls
+  903  cd contracts/
+  904  ls
+  905  vi Fundraiser.sol
+  906  cp Fundraiser.sol_back1
+  907  cp Fundraiser.sol Fundraiser.sol_back1
+  908  cp Fundraiser.sol Fundraiser.sol_back2
+  909  cp Fundraiser.sol Fundraiser.sol_bac3
+  910  ls
+  911  cat Fundraiser.sol_back1
+  912  ls
+  913  vi Fundraiser.sol
+  914  cd ..
+  915  cd test
+  916  ls
+  917  vi fundraiser_test.js
+  918  cd ..
+  919  /home/ubuntu/node_modules/.bin/truffle test
+  920  cd test
+  921  /home/ubuntu/node_modules/.bin/truffle test
+  922  ls
+  923  cd truffle
+  924  ls
+  925  vi truffle-config.js 
+  926  ls
+  927  cd test
+  928  /home/ubuntu/node_modules/.bin/truffle test
+  929  ls
+  930  vi fundraiser_test.js
+  931  ls
+  932  cd ..
+  933  cd contracts
+  934  ls
+  935  vi Fundraiser.sol
+  936  cd ..
+  937  cd test
+  938  /home/ubuntu/node_modules/.bin/truffle test
+  939  cd ..
+  940  cd contracts
+  941  ls
+  942  vi Fundraiser.sol
+  943  vi Migrations.sol
+  944  cd ..
+  945  cd test
+  946  /home/ubuntu/node_modules/.bin/truffle test
+  947  cd ..
+  948  cd contracts
+  949  ls
+  950  vi Migrations.sol 
+  951  /home/ubuntu/node_modules/.bin/truffle test
+  952  ls
+  953  cd ..
+  954  ls
+  955  vi truffle-config.js 
+  956  cd contracts/
+  957  ls
+  958  vi Fundraiser.sol
+  959  cd ..
+  960  cd test
+  961  ls
+  962  vi fundraiser_test.js
+  963  ls
+  964  cd ..
+  965  cd contracts
+  966  ls
+  967  vi Migrations.sol
+  968  cd ..
+  969  cd test
+  970  /home/ubuntu/node_modules/.bin/truffle test
+  971  ls
+  972  vi fundraiser_test.js
+  973  cd ..
+  974  cd contracts
+  975  ls
+  976  vi Fundraiser.sol
+  977  vi Migrations.sol
+  978  /home/ubuntu/node_modules/.bin/truffle test
+  979  cd ..
+  980  ls
+  981  cd test
+  982  ls
+  983  vi fundraiser_test.js
+  984  cd ..
+  985  cd contracts
+  986  ls
+  987  vi Fundraiser.sol
+  988  https://registry.npmjs.org/openzeppelin-solidity/-/openzeppelin-solidity-2.3.0.tgz
+  989  ls
+  990  /home/ubuntu/node_modules/.bin/truffle test
+  991  ls
+  992  vi Fundraiser.sol
+  993  ls
+  994  cp Fundraiser.sol_back1  Fundraiser.sol
+  995  vi Fundraiser.sol
+  996  ls
+  997  vi Migrations.sol
+  998  ls
+  999  pwd
+ 1000  cd ..
+ 1001  ls
+ 1002  cd test
+ 1003  ls
+ 1004  /home/ubuntu/node_modules/.bin/truffle test
+ 1005  cd ..
+ 1006  cd contracts/
+ 1007  ls
+ 1008  vi Fundraiser.sol
+ 1009  /home/ubuntu/node_modules/.bin/truffle test
+ 1010  ls
+ 1011  cd fundraiser/
+ 1012  ls
+ 1013  cd truffle
+ 1014  ls
+ 1015  vi truffle-config.js 
+ 1016  /home/ubuntu/node_modules/.bin/truffle  test
+ 1017  cd ..
+ 1018  ls
+ 1019  cd node_modules/
+ 1020  cd openzeppelin-solidity/
+ 1021  cd contracts/
+ 1022  cd ownership
+ 1023  vi Ownable.sol 
+ 1024  ls
+ 1025  ./node_modules/.bin/ganache-cli --port 8545  --chainId 5777 -h ec2-44-234-114-89.us-west-2.compute.amazonaws.com
+ 1026  ls
+ 1027  cd fundraiser/
+ 1028  cd ..
+ 1029  ls
+ 1030  cd fundraiser/
+ 1031  ls
+ 1032  cd truffle
+ 1033  ls
+ 1034  cd contracts
+ 1035  ls
+ 1036  vi Fundraiser.sol
+ 1037  /home/ubuntu/node_modules/.bin/truffle test
+ 1038  vi Fundraiser.sol
+ 1039  /home/ubuntu/node_modules/.bin/truffle test
+ 1040  cd ..
+ 1041  ls
+ 1042  cd test
+ 1043  ls
+ 1044  vi fundraiser_test.js
+ 1045  /home/ubuntu/node_modules/.bin/truffle test
+ 1046  vi fundraiser_test.js
+ 1047  ls
+ 1048  cd ..
+ 1049  cd contracts/
+ 1050  ls
+ 1051  vi Fundraiser.sol
+ 1052  cd test
+ 1053  cd ..
+ 1054  cd test
+ 1055  vi fundraiser_test.js
+ 1056  cd ..
+ 1057  cd contracts/
+ 1058  ls
+ 1059  vi Fundraiser.sol
+ 1060  /home/ubuntu/node_modules/.bin/truffle test
+ 1061  vi Fundraiser.sol
+ 1062  cd ..
+ 1063  cd test
+ 1064  ls
+ 1065  vi fundraiser_test.js
+ 1066  /home/ubuntu/node_modules/.bin/truffle test
+ 1067  cd ..
+ 1068  cd contracts
+ 1069  ls
+ 1070  vi Fundraiser.sol
+ 1071  /home/ubuntu/node_modules/.bin/truffle test
+ 1072  vi Fundraiser.sol
+ 1073  /home/ubuntu/node_modules/.bin/truffle test
+ 1074  vi Fundraiser.sol
+ 1075  /home/ubuntu/node_modules/.bin/truffle test
+ 1076  vi Fundraiser.sol
+ 1077  /home/ubuntu/node_modules/.bin/truffle test
+ 1078  vi Fundraiser.sol
+ 1079  cd ..
+ 1080  cd test
+ 1081  ls
+ 1082  vi fundraiser_test.js
+ 1083  /home/ubuntu/node_modules/.bin/truffle test
+ 1084  vi fundraiser_test.js
+ 1085  cd ..
+ 1086  cd contracts
+ 1087  ls
+ 1088  vi Fundraiser.sol
+ 1089  /home/ubuntu/node_modules/.bin/truffle test
+ 1090  vi Fundraiser.sol
+ 1091  /home/ubuntu/node_modules/.bin/truffle test
+ 1092  vi Fundraiser.sol
+ 1093  /home/ubuntu/node_modules/.bin/truffle test
+ 1094  vi Fundraiser.sol
+ 1095  /home/ubuntu/node_modules/.bin/truffle test
+ 1096  vi Fundraiser.sol
+ 1097  /home/ubuntu/node_modules/.bin/truffle test
+ 1098  vi Fundraiser.sol
+ 1099  /home/ubuntu/node_modules/.bin/truffle test
+ 1100  vi Fundraiser.sol
+ 1101  /home/ubuntu/node_modules/.bin/truffle test
+ 1102  vi Fundraiser.sol
+ 1103  cd ..
+ 1104  cd test
+ 1105  ls
+ 1106  vi fundraiser_test.js
+ 1107  cd ..
+ 1108  cd contracts/
+ 1109  ls
+ 1110  vi Fundraiser.sol
+ 1111  cd ..
+ 1112  cd test
+ 1113  ls
+ 1114  vi fundraiser_test.js
+ 1115  cd ..
+ 1116  cd contracts/
+ 1117  ls
+ 1118  vi Fundraiser.sol
+ 1119  cd ..
+ 1120  cd test
+ 1121  ls
+ 1122  vi fundraiser_test.js
+ 1123  /home/ubuntu/node_modules/.bin/truffle test
+ 1124  vi fundraiser_test.js
+ 1125  /home/ubuntu/node_modules/.bin/truffle test
+ 1126  vi fundraiser_test.js
+ 1127  /home/ubuntu/node_modules/.bin/truffle test
+ 1128  vi fundraiser_test.js
+ 1129  /home/ubuntu/node_modules/.bin/truffle test
+ 1130  vi fundraiser_test.js
+ 1131  /home/ubuntu/node_modules/.bin/truffle test
+ 1132  vi fundraiser_test.js
+ 1133  /home/ubuntu/node_modules/.bin/truffle test
+ 1134  ls
+ 1135  cd fundraiser/
+ 1136  ls
+ 1137  cd client
+ 1138  ls
+ 1139  cd ..
+ 1140  cd truffle/
+ 1141  ls
+ 1142  cd test
+ 1143  ls
+ 1144  vi fundraiser_test.js
+ 1145  vi fundraiser_factory_test.js
+ 1146  /home/ubuntu/node_modules/.bin/truffle test
+ 1147  ls
+ 1148  cd ..
+ 1149  ls
+ 1150  vi truffle-config.js 
+ 1151  /home/ubuntu/node_modules/.bin/truffle test
+ 1152  cd ..
+ 1153  ls
+ 1154  cd truffle/
+ 1155  ls
+ 1156  cd contracts/
+ 1157  ls
+ 1158  vi FundraiserFactory.sol
+ 1159  /home/ubuntu/node_modules/.bin/truffle test
+ 1160  /home/ubuntu/node_modules/.bin/truffle deploy
+ 1161  /home/ubuntu/node_modules/.bin/truffle test
+ 1162  ls
+ 1163  cd ..
+ 1164  l
+ 1165  cd migrations
+ 1166  ls
+ 1167  vi 2_deploy_fundraiser_factory.js
+ 1168  /home/ubuntu/node_modules/.bin/truffle deploy
+ 1169  /home/ubuntu/node_modules/.bin/truffle test
+ 1170  ls
+ 1171  cd ..
+ 1172  ls
+ 1173  cd test
+ 1174  ls
+ 1175  vi fundraiser_factory_test.js 
+ 1176  /home/ubuntu/node_modules/.bin/truffle test
+ 1177  vi fundraiser_factory_test.js 
+ 1178  /home/ubuntu/node_modules/.bin/truffle test
+ 1179  ls
+ 1180  cd ..
+ 1181  cd contracts/
+ 1182  ls
+ 1183  vi FundraiserFactory.sol
+ 1184  /home/ubuntu/node_modules/.bin/truffle deploy
+ 1185  /home/ubuntu/node_modules/.bin/truffle test
+ 1186  cd ..
+ 1187  ls
+ 1188  cd test
+ 1189  ls
+ 1190  vi fundraiser_factory_test.js 
+ 1191  /home/ubuntu/node_modules/.bin/truffle deploy
+ 1192  /home/ubuntu/node_modules/.bin/truffle test
+ 1193  ls
+ 1194  cd ..
+ 1195  cd contracts/
+ 1196  ls
+ 1197  vi FundraiserFactory.sol 
+ 1198  ls
+ 1199  cd ..
+ 1200  cd test
+ 1201  ls
+ 1202  vi fundraiser_factory_test.js 
+ 1203  /home/ubuntu/node_modules/.bin/truffle test
+ 1204  vi fundraiser_factory_test.js 
+ 1205  /home/ubuntu/node_modules/.bin/truffle test
+ 1206  cd ..
+ 1207  cd contract
+ 1208  ls
+ 1209  cd contracts/
+ 1210  ls
+ 1211  vi FundraiserFactory.sol 
+ 1212  cd ..
+ 1213  cd test
+ 1214  ls
+ 1215  vi fundraiser_factory_test.js 
+ 1216  /home/ubuntu/node_modules/.bin/truffle test
+ 1217  vi fundraiser_factory_test.js 
+ 1218  /home/ubuntu/node_modules/.bin/truffle test
+ 1219  vi fundraiser_factory_test.js 
+ 1220  /home/ubuntu/node_modules/.bin/truffle test
+ 1221  cd ..
+ 1222  l
+ 1223  ls
+ 1224  cd ..
+ 1225  ls
+ 1226  cd client
+ 1227  ls
+ 1228  cd src
+ 1229  ls
+ 1230  cd ..
+ 1231  ls
+ 1232  cp package.json package.json_original_from_install
+ 1233  vi package.json
+ 1234  npm install
+ 1235  ls
+ 1236  cd src
+ 1237  ls
+ 1238  vi App.jsz
+ 1239  vi App.js
+ 1240  ls
+ 1241  vi FundraiserCard.js
+ 1242  vi NewFundraiser.js
+ 1243  vi Receipts.js
+ 1244  vi index.js
+ 1245  cp index.js index.js_original
+ 1246  vi index.js
+ 1247  vi serviceWorker.js
+ 1248  history
+ 1249  ls
+ 1250  vi App.js
+ 1251  /home/ubuntu/node_modules/.bin/truffle deploy
+ 1252  ls
+ 1253  cd ..
+ 1254  ls
+ 1255  cd ..
+ 1256  ls
+ 1257  cd truffle/
+ 1258  /home/ubuntu/node_modules/.bin/truffle deploy
+ 1259  cd ..
+ 1260  l
+ 1261  ls
+ 1262  cd truffle/
+ 1263  ls
+ 1264  cd build
+ 1265  ls
+ 1266  cd contracts/
+ 1267  ls
+ 1268  cat Fundraiser.json 
+ 1269  cat Fundraiser.json  | more
+ 1270  cat Fundraiser.json  
+ 1271  ls
+ 1272  cat FundraiserFactory.json 
+ 1273  ls
+ 1274  cd ..
+ 1275  ls
+ 1276  cd ..
+ 1277  ls
+ 1278  cd client
+ 1279  ls
+ 1280  cd src
+ 1281  ls
+ 1282  vi App.js
+ 1283  cd ..
+ 1284  ls
+ 1285  cd ..
+ 1286  ls
+ 1287  cd truffle
+ 1288  ls
+ 1289  cd contracts/
+ 1290  ls
+ 1291  vi FundraiserFactory.sol 
+ 1292  cd ..
+ 1293  l
+ 1294  cd ..
+ 1295  l
+ 1296  ls
+ 1297  cd client
+ 1298  ls
+ 1299  cd src
+ 1300  ls
+ 1301  vi FundraiserCard.js 
+ 1302  cd ..
+ 1303  ls
+ 1304  cd src
+ 1305  ls
+ 1306  cd components/
+ 1307  ls
+ 1308  cd ..
+ 1309  ls
+ 1310  vi FundraiserCard.js
+ 1311  npm start
+ 1312  vi App.js
+ 1313  npm start
+ 1314  vi Home.js
+ 1315  npm start
+ 1316  ls
+ 1317  cd ..
+ 1318  ls
+ 1319  cd ..
+ 1320  ls
+ 1321  cd truffle/
+ 1322  ls
+ 1323  cd contracts
+ 1324  ls
+ 1325  vi Migrations.sol
+ 1326  ls
+ 1327  cd ..
+ 1328  ls
+ 1329  cd build
+ 1330  ls
+ 1331  cd contracts
+ 1332  ls
+ 1333  cat Fundraiser.json
+ 1334  ls
+ 1335  cat FundraiserFactors.json
+ 1336  cat FundraiserFactory.json
+ 1337  cd ..
+ 1338  ls
+ 1339  cd contracts
+ 1340  ls
+ 1341  vi Migrations.sol
+ 1342  ls
+ 1343  cd ..
+ 1344  ls
+ 1345  cd migrations
+ 1346  ls
+ 1347  vi 3_deploy_fundraiser.js
+ 1348  /home/ubuntu/node_modules/.bin/truffle deploy
+ 1349  ls
+ 1350  vi 3_deploy_fundraiser.js 
+ 1351  /home/ubuntu/node_modules/.bin/truffle deploy
+ 1352  ls
+ 1353  cp 3_deploy_fundraiser.js   3_deploy_fundraiser.js_backup
+ 1354  rm 3_deploy_fundraiser.js
+ 1355  cd ..
+ 1356  ls
+ 1357  npm start
+ 1358  /home/ubuntu/node_modules/.bin/truffle deploy
+ 1359  ls
+ 1360  cd buld
+ 1361  cd build
+ 1362  ls
+ 1363  cd contracts
+ 1364  ls
+ 1365  cd ..
+ 1366  npm start
+ 1367  cd ..
+ 1368  npm start
+ 1369  ls
+ 1370  cd truffle/
+ 1371  ls
+ 1372  npm start
+ 1373  vi package.json
+ 1374  cp package.json package.json_backup
+ 1375  vi package.json
+ 1376  pwd
+ 1377  npm start
+ 1378  ls
+ 1379  vi package.json
+ 1380  cp package.json  package.json_back2
+ 1381  vi package.json
+ 1382  npm start
+ 1383  ls
+ 1384  vi truffle-config.js 
+ 1385  ls
+ 1386  cd ..
+ 1387  ls
+ 1388  cd client
+ 1389  npm start
+ 1390  ls
+ 1391  cd ..
+ 1392  ls
+ 1393  cd client
+ 1394  ls
+ 1395  cd ..
+ 1396  ls
+ 1397  cd client
+ 1398  ls
+ 1399  cd src
+ 1400  ls
+ 1401  cd ..
+ 1402  ls
+ 1403  cd ..
+ 1404  ls
+ 1405  cd truffle
+ 1406  ls
+ 1407  cd bulid
+ 1408  cd build
+ 1409  ls
+ 1410  cd contracts
+ 1411  ls
+ 1412  rm *.json
+ 1413  /home/ubuntu/node_modules/.bin/truffle deploy
+ 1414  ls
+ 1415  cat FundraiserFactory.json 
+ 1416  ls
+ 1417  cat Fundraiser.json
+ 1418  ls
+ 1419  cd Migrations.json
+ 1420  npm start
+ 1421  cd ..
+ 1422  ls
+ 1423  cd client
+ 1424  npm setart
+ 1425  npm start
+ 1426  ls
+ 1427  cd src
+ 1428  ls
+ 1429  cd ..
+ 1430  ls
+ 1431  cd truffle
+ 1432  ls
+ 1433  cd migrations
+ 1434  ls
+ 1435  cd ..
+ 1436  ls
+ 1437  cd bulid
+ 1438  ls
+ 1439  cd build
+ 1440  ls
+ 1441  cd contracts
+ 1442  ls
+ 1443  cat Fundraiser.js
+ 1444  cat Fundraiser.json
+ 1445  ls
+ 1446  cd ..
+ 1447  /home/ubuntu/node_modules/.bin/truffle deploy
+ 1448  ls
+ 1449  cd build
+ 1450  ls
+ 1451  cd contracs
+ 1452  cd contracts/
+ 1453  ls
+ 1454  rm *.json
+ 1455  /home/ubuntu/node_modules/.bin/truffle deploy
+ 1456  npm start
+ 1457  cd ..
+ 1458  ls
+ 1459  cd ..
+ 1460  ls
+ 1461  cd client
+ 1462  npm start
+ 1463  npm i
+ 1464  npm start
+ 1465  cd ..
+ 1466  ls
+ 1467  cd client
+ 1468  ls
+ 1469  cd src
+ 1470  ls
+ 1471  npm start
+ 1472  ls
+ 1473  cd ..
+ 1474  ls
+ 1475  cd src
+ 1476  ls
+ 1477  cd ..
+ 1478  ls
+ 1479  npm start
+ 1480  ls
+ 1481  vi package.json
+ 1482  npm start
+ 1483  ls
+ 1484  cd ..
+ 1485  ls
+ 1486  cd truffle
+ 1487  ls
+ 1488  cd build/contracts
+ 1489  ls
+ 1490  cp *.json  ../..
+ 1491  cd ../..
+ 1492  ls
+ 1493  cp *.json  contracts
+ 1494  cd contracts
+ 1495  ls *.json
+ 1496  cd ..
+ 1497  ls
+ 1498  npm start
+ 1499  ls
+ 1500  cd contracts
+ 1501  npm start
+ 1502  cd ..
+ 1503  ls
+ 1504  cd contracgts
+ 1505  cd contracts/
+ 1506  npm start
+ 1507  cd ..
+ 1508  ls
+ 1509  cd client
+ 1510  ls
+ 1511  npm start
+ 1512  cd ..
+ 1513  ls
+ 1514  git init
+ 1515  git add README.md
+ 1516  git commit -m "first commit"
+ 1517  git add -A 
+ 1518  git branch -M main
+ 1519  git remote remove origin
+ 1520  git remote add origin https://davidalfredostrowski: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@github.com/davidalfredostrowski/fundraiserapp.git
+ 1521  git push -u origin main
+ 1522  git init
+ 1523  git add README.md
+ 1524  git add -A 
+ 1525  git commit -m "first commit"
+ 1526  git branch -M main
+ 1527  git remote remove origin
+ 1528  git remote add origin https://davidalfredostrowski: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@github.com/davidalfredostrowski/funds.git
+ 1529  git push -u origin main
+ 1530  ls
+ 1531  cd ..
+ 1532  ls
+ 1533  ./node_modules/.bin/create-react-app funds
+ 1534  ls
+ 1535  cd funds
+ 1536  ls
+ 1537  /home/ubuntu/node_modules/.bin/truffle init
+ 1538  ls
+ 1539  vi truffle-config.js 
+ 1540  ls
+ 1541  cd contracts
+ 1542  ls
+ 1543  vi Migrations.sol 
+ 1544  vi Fundraisers.sol
+ 1545  ls
+ 1546  vi FundraisersFactory.sol
+ 1547  ls
+ 1548  vi Migrations.sol
+ 1549  cp Migrations.sol Migrations.sol_bacm
+ 1550  ls
+ 1551  vi Migrations.sol
+ 1552  ls
+ 1553  cd ..
+ 1554  ls
+ 1555  cd migrations
+ 1556  ls
+ 1557  vi 2_deploy_fundraiser_factory.js
+ 1558  ls
+ 1559  cd ..
+ 1560  ls
+ 1561  cd contracts
+ 1562  ls
+ 1563  cd migrations
+ 1564  ls
+ 1565  cd ..
+ 1566  l
+ 1567  cd migrations
+ 1568  ls
+ 1569  /home/ubuntu/node_modules/.bin/truffle deploy
+ 1570  ls
+ 1571  cd ..
+ 1572  ls
+ 1573  vi truffle-config.js
+ 1574  /home/ubuntu/node_modules/.bin/truffle deploy
+ 1575  ls
+ 1576  cd contracts
+ 1577  ls
+ 1578  vi Fundraisers.sol
+ 1579  /home/ubuntu/node_modules/.bin/truffle deploy
+ 1580  ls
+ 1581  cp Migrations.sol  Migrations.sol_back_2
+ 1582  cp Migrations.sol_bacm   Migrations.sol
+ 1583  /home/ubuntu/node_modules/.bin/truffle deploy
+ 1584  ls
+ 1585  cp FundraisersFactory.sol   FundraiserFactory.sol
+ 1586  ls
+ 1587  rm FundraisersFactory.sol 
+ 1588  ls
+ 1589  /home/ubuntu/node_modules/.bin/truffle deploy
+ 1590  vi FundraiserFactory.sol 
+ 1591  ls
+ 1592  cp Fundraisers.sol  Fundraiser.sol
+ 1593  rm Fundraisers.sol 
+ 1594  /home/ubuntu/node_modules/.bin/truffle deploy
+ 1595  ls
+ 1596  cd ..
+ 1597  ls
+ 1598  cd build/contracts/
+ 1599  ls
+ 1600  cat Fundraiser.json 
+ 1601  ls
+ 1602  cd ..
+ 1603  ls
+ 1604  cd src
+ 1605  ls
+ 1606  vi App.js
+ 1607  ls
+ 1608  vi FundraiserCard.js
+ 1609  vi Home.js
+ 1610  vi NewFundraiser.js
+ 1611  vi Receipts.js
+ 1612  vi index.js
+ 1613  vi serviceWorker.js
+ 1614  npm start
+ 1615  npm install
+ 1616  npm start
+ 1617  cd ..
+ 1618  npm install --save react-router-dom
+ 1619  ls
+ 1620  cd funds
+ 1621  ls
+ 1622  npm start
+ 1623  ls
+ 1624  cd build/contracts/
+ 1625  ls
+ 1626  cp *.json   ../..
+ 1627  cd ../..
+ 1628  ls
+ 1629  cp *.json contracts
+ 1630  npm start
+ 1631  cd contracts/
+ 1632  ls
+ 1633  cd ..
+ 1634  ls
+ 1635  cd src
+ 1636  ls
+ 1637  cd ..
+ 1638  ls
+ 1639  cp *.json  src
+ 1640  npm start
+ 1641  cd src
+ 1642  ls
+ 1643  mkdir contracts
+ 1644  cp *.json contracts
+ 1645  npm start
+ 1646  cd ..
+ 1647  npm start
+ 1648  cd ..
+ 1649  cd funds
+ 1650  cd ..
+ 1651  npm install @material-ui/core --save
+ 1652  cd funds
+ 1653  ls
+ 1654  npm start
+ 1655  npm install cryptocompare
+ 1656  npm start
+ 1657  npm install getWeb3
+ 1658  cd ..
+ 1659  npm install util
+ 1660  cd funds
+ 1661  ls
+ 1662  npm start
+ 1663  ls
+ 1664  vi package.json
+ 1665  ls
+ 1666  npm install web3
+ 1667  npm start
+ 1668  cd ..
+ 1669  ls
+ 1670  npm install getWeb3
+ 1671  npm install utils
+ 1672  cd funds
+ 1673  ls
+ 1674  npm start
+ 1675  cd ..
+ 1676  npm install web3-utils
+ 1677  cd funds
+ 1678  ls
+ 1679  npm start
+ 1680  cd src
+ 1681  ls
+ 1682  vi Home.js
+ 1683  cd ..
+ 1684  l
+ 1685  history > h.data
