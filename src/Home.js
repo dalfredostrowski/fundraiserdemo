@@ -27,7 +27,7 @@ const Home = () => {
   const init = async () => {
     try {
 
-      const web3 = new Web3(new Web3.providers.HttpProvider("http://ec2-34-223-48-94.us-west-2.compute.amazonaws.com:8545"))
+      const web3 = new Web3(new Web3.providers.HttpProvider("http://ec2-34-223-109-134.us-west-2.compute.amazonaws.com:8545"))
       const networkId = await web3.eth.net.getId();
       const deployedNetwork = FactoryContract.networks[networkId];
       const accounts = await web3.eth.getAccounts();
@@ -50,8 +50,15 @@ const Home = () => {
 
       setContract(newinstance)
       setAccounts(accounts)
+     //   terst test  
+      let name = "Beneficiary Name";
+       let url  = "beneficiaryname.org";
+       let imageURL = "https://placekitten.com/600/350";
+       let description = "Beneficiary Description";
+   //    const transaction = await newinstance.methods.createFundraiser( name, url, imageURL, description, accounts[1]).call().send({ from: accounts[0]})
+    // test test 
 
-      const funds = await newinstance.methods.fundraisers(10, 0).call()
+    const funds =          await newinstance.methods.fundraisers(10, 0).call()
 
       setFunds(funds)
     }

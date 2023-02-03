@@ -37,8 +37,9 @@ useEffect(() => {
     try {
  //     const web3 = await getWeb3();
  
+      alert('new i am in the NewFundraiser.js module')
+const web3 = new Web3(new Web3.providers.HttpProvider("http://ec2-34-223-109-134.us-west-2.compute.amazonaws.com:8545"))
 
-const web3 = new Web3(new Web3.providers.HttpProvider("http://ec2-34-223-48-94.us-west-2.compute.amazonaws.com:8545"))
       const networkId = await web3.eth.net.getId();
       const deployedNetwork = FactoryContract.networks[networkId];
       const accounts = await web3.eth.getAccounts();
@@ -53,7 +54,7 @@ const web3 = new Web3(new Web3.providers.HttpProvider("http://ec2-34-223-48-94.u
 
     } catch(error) {
       alert(
-        `Failed to load web3, accounts, or contract. Check console for details.`,
+        `   (NewFundraiser.js)    Failed to load web3, accounts, or contract. Check console for details.`,
       );
       console.error(error);
     }
@@ -70,18 +71,42 @@ const [ contract, setContract] = useState(null)
 const [ accounts, setAccounts ] = useState(null)
 
 const handleSubmit = async () => {
-  const imageURL = image
+
+
+     const web3 = new Web3(new Web3.providers.HttpProvider("http://ec2-34-223-109-134.us-west-2.compute.amazonaws.com:8545"))
+
+	const imageURL = image
   const url = website
   const beneficiary = address
   const currentUser = await web3.currentProvider.selectedAddress
+  const accounts2  = await web3.eth.getAccounts()
+  const networkId = await web3.eth.net.getId();
+  let jsonData = require('./FundraiserFactory.json');
+  var networkKey =  Object.keys(jsonData['networks'])[Object.keys(jsonData.networks).length-1] 
+  console.log(networkKey)	
+  //const contract = new web3.eth.Contract(VOTING_ABI);
+  const newinstance = new web3.eth.Contract(jsonData.abi); 
+  newinstance.options.address = jsonData['networks'][networkId]["address"]
+  alert('just before the submission!!!!')
+  console.log("newinstance", newinstance) 
+  console.log("name",name)
+  console.log("url",url)
+  console.log("imageURL",imageURL)
+  console.log("description",description)
+  console.log("beneficiary", beneficiary)
+  console.log("accounts2[0]", accounts2[0])
+  console.log("newinstance.options.address", newinstance.options.address ) 
+ //      const transaction = await newinstance.methods.createFundraiser(
+  
 
-  const transaction = await contract.methods.createFundraiser(
-    name,
-    url,
-    imageURL,
-    description,
-    beneficiary
-  ).send({ from: accounts[0] })
+	const transaction = await newinstance.methods.createFundraiser( name, url, imageURL, description, accounts2[1]).send({ from: accounts2[0], gas : 3000000 })
+//	(
+//    name,
+//    url,
+//    imageURL,
+//    description,
+//    accounts2[1] 
+//  ).send({ from: accounts2[0] }).call(console.log)
 
   alert('Successfully created fundraiser')
 }
